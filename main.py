@@ -13,7 +13,7 @@ counter = 0 # Vamos querer ter uma variável para controlar os frames em que vam
 
 face_match = False # Booleana
 
-reference_img = cv2.imread("reference.jpg")
+reference_img = cv2.imread("reference.jpg") # Imagem que irá servir de referência
 
 def check_face(frame): # Função que analisa e avalia se a fotografia e o frame têm a mesma cara neles
     global face_match
